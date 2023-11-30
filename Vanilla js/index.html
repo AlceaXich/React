@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <button button-id="123">Me encanta</button>
+    <script>
+        //Vanilla javascript
+        //codigo imperativo: tiene una serie de instrucciones
+        //recuperando el boton
+        const button = document.querySelector('button');
+
+        //Al hacer clic en el boton, tnemos que ejecutar un alert
+        button.addEventListener('click',function (){
+        const id = button.getAttribute('data-id');
+
+        //llamar a un servicio para actualizar
+        //toggleLike(id)
+
+        if(button.classList.contains('liked')){
+            button.classList.remove('liked');
+            button.innerText = 'Me encanta';
+        }else{
+            button.classList.add('liked');
+            button.innerText = 'No me encanta';
+        }
+        })
+    </script>
+</body>
+</html>
