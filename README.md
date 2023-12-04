@@ -15,4 +15,16 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
 ## Definiciones importantes
 - **Vanilla js**: es el nombre con un poco de humor que le ha dado la comunidad al javascript puro o más bien, a la ausencia de librerías y frameworks de Javascript y de ahí el concepto del “renacer”.
 - **jsx**: Se llama JSX, y es una extensión de la sintaxis de JavaScript. Se recomienda usarlo con React para describir cómo debería ser la interfaz de usuario. JSX puede recordarte a un lenguaje de plantillas, pero viene con todo el poder de JavaScript.
-- 
+
+## Apuntes importantes
+- Para trabajar con jsx, podemos usar los siguientes empaquetadores:
+  - Create React App
+  - Vite
+- Nomenclaturas de programacion: es el tipo de escritura.
+  - **PascalCase** -> los combres de los componentes deben usar esta nomenclatura.
+  - camelCase
+  - snake_case
+  - kebab-case
+- Para agregar estilos a react existen 2 formas:
+  1. En linea: `style={{display:'flex',color:'green'}}` **¡No es la forma correcta!**, en reac native se usa.
+  2. Llamar a un archivo externo.
