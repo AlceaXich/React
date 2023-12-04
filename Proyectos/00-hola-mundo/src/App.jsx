@@ -1,21 +1,12 @@
 import './App.css'
+import { FacebookFollowCard } from './FacebookFollowCard.jsx'
 
 export function App () {
     return (
-        <article className="tw-followCard">
-            <header className="tw-followCard-header">
-                <img 
-                    className="tw-followCard-avatar"
-                    src="https://unavatar.io/kikobeats" 
-                    alt="Avatar random" />
-                <div className="tw-followCard-info">
-                    <strong>Shirley Oxa</strong>
-                    <span className="tw-followCard-infoUserName">@alceaxich</span>
-                </div>
-            </header>
-            <aside>
-                <button className='tw-followCard-button'>Seguir</button>
-            </aside>
-        </article>
+        <div className='App'>
+            <FacebookFollowCard username="alceaxich" name="Shirley Oxa"/>
+            <FacebookFollowCard username="alcexich" name="Shirley Oxa"/>
+            <FacebookFollowCard username="alcexich" name="Shirley Oxa"/>
+        </div>
     )
 }

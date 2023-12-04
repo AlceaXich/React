@@ -28,3 +28,5 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
 - Para agregar estilos a react existen 2 formas:
   1. En linea: `style={{display:'flex',color:'green'}}` **¡No es la forma correcta!**, en reac native se usa.
   2. Llamar a un archivo externo.
+- Para evaluar una expresion se usan las llaves `{}`.
+- `<React.Fragment>...</React.Fragment>` se puede usar de la siguiente manera -> `<>...</>`.
