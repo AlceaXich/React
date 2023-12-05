@@ -6,8 +6,7 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
 **Nota**: Si bien no se encontrara toda la informacion de REACT, solo lo que considere importante recordar y recalcar.
 ## Objetivo
 -   Aprender React
--   Comprender los conceptos de react.
--   
+-   Comprender los conceptos de react. 
 ## Recursos
 - [Curso de React [2023]: De cero hasta crear tus primeros componentes con estado](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
 - [Wiki react](https://www.reactjs.wiki/)
@@ -30,3 +29,9 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
   2. Llamar a un archivo externo.
 - Para evaluar una expresion se usan las llaves `{}`.
 - `<React.Fragment>...</React.Fragment>` se puede usar de la siguiente manera -> `<>...</>`.
+- Las props deben ser inmutables.
+- childres -> vendria a  ser todo lo que se envuelve en el caso de la siguiente imagen **seguir** es considerado como children.
+![Children dentro de HTML](./Proyectos/00-hola-mundo/src/assets/img/childrenHTML.png)
+- Un chidren puede ser una cadena de texto, o un componente o un elemento de html.
+![Children dentro del llamado de un comonente](./Proyectos/00-hola-mundo/src/assets/img/chidren.png)
+- 
