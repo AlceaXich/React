@@ -4,9 +4,13 @@ import { FacebookFollowCard } from './FacebookFollowCard.jsx'
 export function App () {
     return (
         <div className='App'>
-            <FacebookFollowCard  isFollowing username="alceaxich" name="Shirley Oxa"/>
-            <FacebookFollowCard isFollowing={false} username="alcexich" name="Shirley Oxa"/>
-            <FacebookFollowCard isFollowing={true} username="alcexich" name="Shirley Oxa"/>
+            <FacebookFollowCard  isFollowing username="alceaxich">
+                Shirley Oxa   
+            </FacebookFollowCard>
+            <FacebookFollowCard isFollowing={false} username="mihs">
+                Alcea Xich
+            </FacebookFollowCard>
+            
         </div>
     )
 }
