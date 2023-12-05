@@ -1,5 +1,6 @@
 export function FacebookFollowCard ({ children, username, isFollowing }){
     console.log(isFollowing)
+    const text = isFollowing ? 'Siguiendo' : 'seguir'
     return(
         <article className="tw-followCard">
             <header className="tw-followCard-header">
@@ -14,7 +15,7 @@ export function FacebookFollowCard ({ children, username, isFollowing }){
             </header>
             <aside>
                 <button className='tw-followCard-button'>
-                    Seguir
+                    {text}
                 </button>
             </aside>
         </article>
