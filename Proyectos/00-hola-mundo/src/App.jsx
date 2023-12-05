@@ -2,12 +2,15 @@ import './App.css'
 import { FacebookFollowCard } from './FacebookFollowCard.jsx'
 
 export function App () {
+    const alcea = { isFollowing:true, username:'AlceaXich' }
+    const mihs = { isFollowing:false, username:'mihs moca' }
+    
     return (
         <div className='App'>
-            <FacebookFollowCard  isFollowing username="alceaxich">
+            <FacebookFollowCard {...alcea}>
                 Shirley Oxa   
             </FacebookFollowCard>
-            <FacebookFollowCard isFollowing={false} username="mihs">
+            <FacebookFollowCard {...mihs}>
                 Alcea Xich
             </FacebookFollowCard>
             
