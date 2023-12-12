@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-export function FacebookFollowCard ({ children, username }){
-    const [isFollowing, setIsFollowing] = useState(false)
+export function FacebookFollowCard ({ children, username, initialIsFollowing}){
+    const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     
     //LA LINEA ANTERIOR ES EQUIVALENTE A LAS SIGUIENTES 3 LINEAS
 
@@ -10,7 +10,7 @@ export function FacebookFollowCard ({ children, username }){
     const setIsFollowing = state[1]*/
 
     console.log(isFollowing)
-    const text = isFollowing ? 'Siguiendo' : 'seguir'
+    const text = isFollowing ? 'Siguiendo' : 'Seguir'
     const buttonClassName = isFollowing ? 'tw-followCard-button is-following' : 'tw-followCard-button'
 
     const handleClick = () => {

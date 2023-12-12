@@ -36,4 +36,9 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
 ![Children dentro de HTML](./Proyectos/00-hola-mundo/src/assets/img/childrenHTML.png)
 - Un chidren puede ser una cadena de texto, o un componente o un elemento de html.
 ![Children dentro del llamado de un comonente](./Proyectos/00-hola-mundo/src/assets/img/chidren.png)
-- 
+
+## Proyectos
+### 00-hola-mundo
+En este proyecto se aprendio la creación de comoponentes, props, children, hooks.
+Como resultado se tuvo lo siguiente:
+![Resultaado del proyecto](./Proyectos/00-hola-mundo/src/assets/img/Result-proyecto1.png)
