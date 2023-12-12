@@ -1,6 +1,22 @@
-export function FacebookFollowCard ({ children, username, isFollowing }){
+import { useState } from 'react'
+
+export function FacebookFollowCard ({ children, username }){
+    const [isFollowing, setIsFollowing] = useState(false)
+    
+    //LA LINEA ANTERIOR ES EQUIVALENTE A LAS SIGUIENTES 3 LINEAS
+
+    /*const state = useState(false)
+    const isFollowing = state[0]
+    const setIsFollowing = state[1]*/
+
     console.log(isFollowing)
     const text = isFollowing ? 'Siguiendo' : 'seguir'
+    const buttonClassName = isFollowing ? 'tw-followCard-button is-following' : 'tw-followCard-button'
+
+    const handleClick = () => {
+        setIsFollowing(!isFollowing)
+    }
+    
     return(
         <article className="tw-followCard">
             <header className="tw-followCard-header">
@@ -14,7 +30,7 @@ export function FacebookFollowCard ({ children, username, isFollowing }){
                 </div>
             </header>
             <aside>
-                <button className='tw-followCard-button'>
+                <button className={buttonClassName} onClick={handleClick}>
                     {text}
                 </button>
             </aside>
