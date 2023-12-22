@@ -9,6 +9,7 @@ Bienvenido al repositorio **React**. Aquí encontrarás el código fuente y la d
 -   Comprender los conceptos de react. 
 ## Recursos
 - [Curso de React [2023]: De cero hasta crear tus primeros componentes con estado](https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29)
+- [Curso de React desde cero: Crea un videojuego y una aplicación para aprender useState y useEffect](https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=2)
 - [Wiki react](https://www.reactjs.wiki/)
 
 ## Definiciones importantes
